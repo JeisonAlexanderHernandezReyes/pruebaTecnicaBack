@@ -1,0 +1,6 @@
+::1 - - [11/Jan/2023:01:01:32 +0000] "GET /api/getAllCustomerCard HTTP/1.1" 404 161 "-" "PostmanRuntime/7.30.0"
+::1 - - [11/Jan/2023:01:01:43 +0000] "GET /api/getAllCustomerCard HTTP/1.1" 404 161 "-" "PostmanRuntime/7.30.0"
+::1 - - [11/Jan/2023:01:01:46 +0000] "GET /api/getAllCustomerCard HTTP/1.1" 404 161 "-" "PostmanRuntime/7.30.0"
+::1 - - [11/Jan/2023:01:01:47 +0000] "GET /api/getAllCustomerCard HTTP/1.1" 404 161 "-" "PostmanRuntime/7.30.0"
+::1 - - [11/Jan/2023:01:01:48 +0000] "GET /api/getAllCustomerCard HTTP/1.1" 404 161 "-" "PostmanRuntime/7.30.0"
+::1 - - [11/Jan/2023:01:01:48 +0000] "GET /api/getAllCustomerCard HTTP/1.1" 404 161 "-" "PostmanRuntime/7.30.0"
