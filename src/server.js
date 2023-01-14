@@ -13,6 +13,7 @@ dotenv.config({ path: ".env-local" });
 /* This is a way to set a default port if the environment variable is not set. */
 const PORT = process.env.PORT || 3000;
 
+/* Creating an instance of the express module. */
 const app = express();
 
 /**
@@ -20,6 +21,8 @@ const app = express();
  */
 app.use(express.json());
 app.use('/api', customersRoute);
+
+/* Creating a log file and writing to it. */
 const accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' })
 const logger = app.use(morgan('combined', { stream: accessLogStream }))
 
