@@ -31,7 +31,7 @@ const logger = app.use(morgan('combined', { stream: accessLogStream }))
  */
 app.get("/", (req, res) => {
   logger(req, res, function (err) {
-    if (err) return done(err);
+    if (err) return console.log(err);
     res.render('index', { title: 'Express' });
     res.setHeader("content-type", "text/plain");
     res.end("You need to specify a route");
