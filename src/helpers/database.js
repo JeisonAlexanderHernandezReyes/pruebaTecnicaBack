@@ -5,7 +5,6 @@ mongoose.Promise = global.Promise;
 const DB_URI =
   process.env.DATABASE_URL ||
   "mongodb+srv://jeisonadmincloud:Reyes9910@proyecto.aczh8lc.mongodb.net/?retryWrites=true&w=majority";
-
 module.exports = () => {
   const connect = () => {
     mongoose.connect(

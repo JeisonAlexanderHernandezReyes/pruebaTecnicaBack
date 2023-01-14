@@ -17,10 +17,6 @@ const customerCardSchema = mongoose.Schema( {
 	cvv:{
         type: Number,
         required: true
-    },
-	franchise: {
-        type: String,
-        required: true
     }
 });
 
